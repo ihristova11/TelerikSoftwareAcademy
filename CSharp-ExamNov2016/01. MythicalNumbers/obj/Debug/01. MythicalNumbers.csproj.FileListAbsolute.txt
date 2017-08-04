@@ -1,0 +1,6 @@
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\CSharp-ExamNov2016\01. MythicalNumbers\bin\Debug\_01.MythicalNumbers.exe.config
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\CSharp-ExamNov2016\01. MythicalNumbers\bin\Debug\_01.MythicalNumbers.exe
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\CSharp-ExamNov2016\01. MythicalNumbers\bin\Debug\_01.MythicalNumbers.pdb
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\CSharp-ExamNov2016\01. MythicalNumbers\obj\Debug\01. MythicalNumbers.csprojResolveAssemblyReference.cache
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\CSharp-ExamNov2016\01. MythicalNumbers\obj\Debug\_01.MythicalNumbers.exe
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\CSharp-ExamNov2016\01. MythicalNumbers\obj\Debug\_01.MythicalNumbers.pdb
