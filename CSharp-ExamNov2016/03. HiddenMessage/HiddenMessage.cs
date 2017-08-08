@@ -25,8 +25,13 @@ namespace _03.HiddenMessage
                 message = Console.ReadLine();
                 indStr = Console.ReadLine();
 
+                if(i < 0)
+                {
+                    i += message.Length;
+                }
+                
 
-                for (int j = i; i < message.Length; i += s)
+                for (; i < message.Length && i >= 0; i += s)
                 {
                     hiddenMessage += message[i];
                 }
@@ -34,9 +39,6 @@ namespace _03.HiddenMessage
             }
 
 
-            //Console.WriteLine(i);
-            //Console.WriteLine(s);
-            //Console.WriteLine(message);
             Console.WriteLine(hiddenMessage);
 
         }
