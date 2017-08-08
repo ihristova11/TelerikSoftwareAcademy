@@ -1,0 +1,6 @@
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\CSharp-ExamNov2016\04. MixingNumbers\bin\Debug\_04.MixingNumbers.exe.config
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\CSharp-ExamNov2016\04. MixingNumbers\bin\Debug\_04.MixingNumbers.exe
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\CSharp-ExamNov2016\04. MixingNumbers\bin\Debug\_04.MixingNumbers.pdb
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\CSharp-ExamNov2016\04. MixingNumbers\obj\Debug\04. MixingNumbers.csprojResolveAssemblyReference.cache
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\CSharp-ExamNov2016\04. MixingNumbers\obj\Debug\_04.MixingNumbers.exe
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\CSharp-ExamNov2016\04. MixingNumbers\obj\Debug\_04.MixingNumbers.pdb

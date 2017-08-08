@@ -1,0 +1,6 @@
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\CSharp-ExamNov2016\02. Jump, jump\bin\Debug\_02.Jump__jump.exe.config
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\CSharp-ExamNov2016\02. Jump, jump\bin\Debug\_02.Jump__jump.exe
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\CSharp-ExamNov2016\02. Jump, jump\bin\Debug\_02.Jump__jump.pdb
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\CSharp-ExamNov2016\02. Jump, jump\obj\Debug\02. Jump, jump.csprojResolveAssemblyReference.cache
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\CSharp-ExamNov2016\02. Jump, jump\obj\Debug\_02.Jump__jump.exe
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\CSharp-ExamNov2016\02. Jump, jump\obj\Debug\_02.Jump__jump.pdb
