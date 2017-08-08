@@ -11,36 +11,39 @@ namespace _02.GoingToAParty
         static void Main(string[] args)
         {
             string input = Console.ReadLine();
-            int step = 0;
             int ind = 0;
 
-
-            for (int i = 0; i < input.Length && i >= 0; i += step)
+            try
             {
-                if (input[i] <= 'z' && input[i] >= 'a')
+                for (; ind < input.Length && ind >= 0;)
                 {
-                    step += input[i] - 96;
-                }
-                else if (input[i] >= 'A' && input[i] <= 'Z')
-                {
-                    step -= input[i] - 64;
-                }
-                else if (input[i].ToString() == "^")
-                {
-                    Console.WriteLine("Djor and Djano are at the party at {0}!", i + 1);
-                    break;
-                }
+                    if (input[ind].ToString() == "^")
+                    {
+                        Console.WriteLine("Djor and Djano are at the party at {0}!", ind);
+                        break;
+                    }
 
-                if (i + step < 0 || i + step > input.Length)
-                {
-                    Console.WriteLine("Djor and Djano are lost at {0}!", i + step);
-                    break;
+                    if (input[ind] >= 'a' && input[ind] <= 'z')
+                    {
+                        ind += input[ind] - 96;
+                    }
+
+                    if (input[ind] >= 'A' && input[ind] <= 'Z')
+                    {
+                        ind -= input[ind] - 64;
+                    }
+
+                    if (ind > input.Length || ind < 0)
+                    {
+                        Console.WriteLine("Djor and Djano are lost at {0}!", ind);
+                        break;
+                    }
                 }
             }
-
-
-
-
+            catch (SystemException)
+            {
+                Console.WriteLine("Djor and Djano are lost at {0}!", ind);
+            }
         }
     }
 }
