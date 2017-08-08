@@ -6,12 +6,15 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. MythicalNumbers", "01. MythicalNumbers\01. MythicalNumbers.csproj", "{409B925E-BF12-4205-9675-04AAF660B1FF}"
 EndProject
 <<<<<<< HEAD
+<<<<<<< HEAD
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Jump, jump", "02. Jump, jump\02. Jump, jump.csproj", "{B1517260-9EE3-45D3-9164-5ED8AA5AE1AA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. HiddenMessage", "03. HiddenMessage\03. HiddenMessage.csproj", "{914923BB-1A1C-490F-A372-FC73BA0107BF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. MixingNumbers", "04. MixingNumbers\04. MixingNumbers.csproj", "{BF7EEAA7-5218-4AAA-A4C1-0210C8E61E6C}"
 EndProject
+=======
+>>>>>>> 8fdd336efbf62a8fd9bd1358c9e9cc82c15df81b
 =======
 >>>>>>> 8fdd336efbf62a8fd9bd1358c9e9cc82c15df81b
 Global
@@ -25,6 +28,7 @@ Global
 		{409B925E-BF12-4205-9675-04AAF660B1FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{409B925E-BF12-4205-9675-04AAF660B1FF}.Release|Any CPU.Build.0 = Release|Any CPU
 <<<<<<< HEAD
+<<<<<<< HEAD
 		{B1517260-9EE3-45D3-9164-5ED8AA5AE1AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B1517260-9EE3-45D3-9164-5ED8AA5AE1AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1517260-9EE3-45D3-9164-5ED8AA5AE1AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -37,6 +41,8 @@ Global
 		{BF7EEAA7-5218-4AAA-A4C1-0210C8E61E6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF7EEAA7-5218-4AAA-A4C1-0210C8E61E6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF7EEAA7-5218-4AAA-A4C1-0210C8E61E6C}.Release|Any CPU.Build.0 = Release|Any CPU
+=======
+>>>>>>> 8fdd336efbf62a8fd9bd1358c9e9cc82c15df81b
 =======
 >>>>>>> 8fdd336efbf62a8fd9bd1358c9e9cc82c15df81b
 	EndGlobalSection
