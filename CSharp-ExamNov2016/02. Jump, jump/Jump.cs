@@ -11,69 +11,51 @@ namespace _02.Jump__jump
         static void Main(string[] args)
         {
             string instructions = Console.ReadLine();
+            int boundaries = instructions.Length;
 
-            int position = 0;
-
-            if (int.Parse(instructions[position].ToString()) % 2 == 0)
+            for (int i = 0; i < boundaries;)
             {
-                position += int.Parse(instructions[position].ToString()); //go to new position +++
-            }
-            else
-            {
-                position -= int.Parse(instructions[position].ToString()); // go back to new position
 
-            }
-            try
-            {
-                if (instructions[position] == '^')
+                if (instructions[i] == '0')
                 {
-                    Console.WriteLine("Jump, Jump, DJ Tomekk kommt at {0}!", position);
+                    Console.WriteLine("Too drunk to go on after {0}!", i);
+                    break;
                 }
-                if (position == 0)
+                else if (instructions[i] == '^')
                 {
-                    Console.WriteLine("Too drunk to go on after {0}!", position);
+                    Console.WriteLine("Jump, Jump, DJ Tomekk kommt at {0}!", i);
+                    break;
                 }
-                if (position < 0 && position >= instructions.Length)
+                else if (instructions[i] % 2 == 0)
                 {
-                    Console.WriteLine("Fell off the dancefloor at {0}!", position);
-                }
-
-                //Console.WriteLine(position);
-
-                while ((position > 0 && position < instructions.Length) || position != 0 || instructions[position] != '^')
-                {
-                    if (instructions[position] % 2 == 0)
+                    int value = instructions[i] - '0';
+                    int next = i + value;
+                    if (next > (boundaries - 1) || next < 0)
                     {
-                        position += int.Parse(instructions[position].ToString());
+                        Console.WriteLine("Fell off the dancefloor at {0}!", next);
+                        break;
                     }
                     else
                     {
-                        position -= int.Parse(instructions[position].ToString());
+                        i = next;
                     }
-
-                    if (position < 0 && position >= instructions.Length)
+                }
+                else if (instructions[i] % 2 != 0)
+                {
+                    int value = instructions[i] - '0';
+                    int next = i - value;
+                    if (next > (boundaries - 1) || next < 0)
                     {
-                        Console.WriteLine("Fell off the dancefloor at {0}!", position);
+                        Console.WriteLine("Fell off the dancefloor at {0}!", next);
                         break;
                     }
-                    if (position == 0)
+                    else
                     {
-                        Console.WriteLine("Too drunk to go on after {0}!", position);
-                        break;
-                    }
-                    if (instructions[position] == '^')
-                    {
-                        Console.WriteLine("Jump, Jump, DJ Tomekk kommt at {0}!", position);
-                        break;
+                        i = next;
                     }
 
                 }
             }
-            catch (IndexOutOfRangeException)
-            {
-                Console.WriteLine("Fell off the dancefloor at {0}!", position);
-            }
         }
-
     }
 }

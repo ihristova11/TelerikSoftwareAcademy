@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. MagicalNumbers", "01. MagicalNumbers\01. MagicalNumbers.csproj", "{591911FF-E50F-42B0-AF04-493825620EA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. GoingToAParty", "02. GoingToAParty\02. GoingToAParty.csproj", "{AE0A1F5F-95C4-42D7-96CF-7CEA227E3939}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{591911FF-E50F-42B0-AF04-493825620EA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{591911FF-E50F-42B0-AF04-493825620EA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{591911FF-E50F-42B0-AF04-493825620EA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{591911FF-E50F-42B0-AF04-493825620EA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE0A1F5F-95C4-42D7-96CF-7CEA227E3939}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE0A1F5F-95C4-42D7-96CF-7CEA227E3939}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE0A1F5F-95C4-42D7-96CF-7CEA227E3939}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE0A1F5F-95C4-42D7-96CF-7CEA227E3939}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
