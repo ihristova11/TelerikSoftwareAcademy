@@ -15,8 +15,6 @@ namespace _04.MixingNumbers
             int[] mix = new int[n - 1];
             int[] numbers = new int[n];
 
-
-
             for (int j = 0; j < n; j++)
             {
                 numbers[j] = int.Parse(Console.ReadLine());
@@ -26,18 +24,10 @@ namespace _04.MixingNumbers
             {
                 substract[i] = Math.Abs(numbers[i] - numbers[i + 1]);
                 mix[i] = (numbers[i] % 10) * (numbers[i + 1] / 10);
-
-
-
-                Console.WriteLine(mix[i]);
-                Console.WriteLine(substract[i]);
+                
             }
-            Console.WriteLine();
-            Console.WriteLine();
             Console.WriteLine(string.Join(" ", mix));
             Console.WriteLine(string.Join(" ", substract));
-
-
         }
     }
 }
