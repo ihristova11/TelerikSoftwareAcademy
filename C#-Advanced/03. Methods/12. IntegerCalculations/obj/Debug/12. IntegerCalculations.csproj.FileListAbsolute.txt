@@ -1,0 +1,6 @@
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\C#-Advanced\03. Methods\12. IntegerCalculations\bin\Debug\_12.IntegerCalculations.exe.config
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\C#-Advanced\03. Methods\12. IntegerCalculations\bin\Debug\_12.IntegerCalculations.exe
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\C#-Advanced\03. Methods\12. IntegerCalculations\bin\Debug\_12.IntegerCalculations.pdb
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\C#-Advanced\03. Methods\12. IntegerCalculations\obj\Debug\12. IntegerCalculations.csprojResolveAssemblyReference.cache
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\C#-Advanced\03. Methods\12. IntegerCalculations\obj\Debug\_12.IntegerCalculations.exe
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\C#-Advanced\03. Methods\12. IntegerCalculations\obj\Debug\_12.IntegerCalculations.pdb
