@@ -1,0 +1,5 @@
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\C#-Advanced\03. Methods\11. AddingPolynomials\bin\Debug\_11.AddingPolynomials.exe.config
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\C#-Advanced\03. Methods\11. AddingPolynomials\bin\Debug\_11.AddingPolynomials.exe
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\C#-Advanced\03. Methods\11. AddingPolynomials\bin\Debug\_11.AddingPolynomials.pdb
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\C#-Advanced\03. Methods\11. AddingPolynomials\obj\Debug\_11.AddingPolynomials.exe
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\C#-Advanced\03. Methods\11. AddingPolynomials\obj\Debug\_11.AddingPolynomials.pdb
