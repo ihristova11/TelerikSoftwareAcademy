@@ -1,0 +1,5 @@
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\C#-Advanced\03. Methods\07. ReverseNumber\bin\Debug\_07.ReverseNumber.exe.config
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\C#-Advanced\03. Methods\07. ReverseNumber\bin\Debug\_07.ReverseNumber.exe
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\C#-Advanced\03. Methods\07. ReverseNumber\bin\Debug\_07.ReverseNumber.pdb
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\C#-Advanced\03. Methods\07. ReverseNumber\obj\Debug\_07.ReverseNumber.exe
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\C#-Advanced\03. Methods\07. ReverseNumber\obj\Debug\_07.ReverseNumber.pdb

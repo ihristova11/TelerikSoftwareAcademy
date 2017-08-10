@@ -1,0 +1,6 @@
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\C#-Advanced\03. Methods\06. FirstLargerThanNeighbours\bin\Debug\_06.FirstLargerThanNeighbours.exe.config
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\C#-Advanced\03. Methods\06. FirstLargerThanNeighbours\bin\Debug\_06.FirstLargerThanNeighbours.exe
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\C#-Advanced\03. Methods\06. FirstLargerThanNeighbours\bin\Debug\_06.FirstLargerThanNeighbours.pdb
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\C#-Advanced\03. Methods\06. FirstLargerThanNeighbours\obj\Debug\06. FirstLargerThanNeighbours.csprojResolveAssemblyReference.cache
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\C#-Advanced\03. Methods\06. FirstLargerThanNeighbours\obj\Debug\_06.FirstLargerThanNeighbours.exe
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\C#-Advanced\03. Methods\06. FirstLargerThanNeighbours\obj\Debug\_06.FirstLargerThanNeighbours.pdb
