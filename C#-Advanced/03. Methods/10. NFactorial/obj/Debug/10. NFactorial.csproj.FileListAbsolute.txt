@@ -3,3 +3,4 @@ C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\C#-Adva
 C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\C#-Advanced\03. Methods\10. NFactorial\bin\Debug\_10.NFactorial.pdb
 C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\C#-Advanced\03. Methods\10. NFactorial\obj\Debug\_10.NFactorial.exe
 C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\C#-Advanced\03. Methods\10. NFactorial\obj\Debug\_10.NFactorial.pdb
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\C#-Advanced\03. Methods\10. NFactorial\obj\Debug\10. NFactorial.csprojResolveAssemblyReference.cache
