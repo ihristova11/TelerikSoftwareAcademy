@@ -1,0 +1,5 @@
+c:\users\hrist\onedrive\документи\visual studio 2017\Projects\03. Methods\03. EnglishDigit\bin\Debug\_03.EnglishDigit.exe.config
+c:\users\hrist\onedrive\документи\visual studio 2017\Projects\03. Methods\03. EnglishDigit\bin\Debug\_03.EnglishDigit.exe
+c:\users\hrist\onedrive\документи\visual studio 2017\Projects\03. Methods\03. EnglishDigit\bin\Debug\_03.EnglishDigit.pdb
+c:\users\hrist\onedrive\документи\visual studio 2017\Projects\03. Methods\03. EnglishDigit\obj\Debug\_03.EnglishDigit.exe
+c:\users\hrist\onedrive\документи\visual studio 2017\Projects\03. Methods\03. EnglishDigit\obj\Debug\_03.EnglishDigit.pdb

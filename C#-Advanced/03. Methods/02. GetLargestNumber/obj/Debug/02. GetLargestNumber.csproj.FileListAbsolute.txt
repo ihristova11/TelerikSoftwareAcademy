@@ -1,0 +1,5 @@
+c:\users\hrist\onedrive\документи\visual studio 2017\Projects\03. Methods\02. GetLargestNumber\bin\Debug\_02.GetLargestNumber.exe.config
+c:\users\hrist\onedrive\документи\visual studio 2017\Projects\03. Methods\02. GetLargestNumber\bin\Debug\_02.GetLargestNumber.exe
+c:\users\hrist\onedrive\документи\visual studio 2017\Projects\03. Methods\02. GetLargestNumber\bin\Debug\_02.GetLargestNumber.pdb
+c:\users\hrist\onedrive\документи\visual studio 2017\Projects\03. Methods\02. GetLargestNumber\obj\Debug\_02.GetLargestNumber.exe
+c:\users\hrist\onedrive\документи\visual studio 2017\Projects\03. Methods\02. GetLargestNumber\obj\Debug\_02.GetLargestNumber.pdb

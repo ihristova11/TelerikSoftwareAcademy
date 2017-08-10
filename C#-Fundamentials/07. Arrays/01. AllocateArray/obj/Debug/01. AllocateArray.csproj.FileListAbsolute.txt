@@ -1,0 +1,6 @@
+c:\users\hrist\onedrive\документи\visual studio 2017\Projects\07. Arrays\01. AllocateArray\bin\Debug\_01.AllocateArray.exe.config
+c:\users\hrist\onedrive\документи\visual studio 2017\Projects\07. Arrays\01. AllocateArray\bin\Debug\_01.AllocateArray.exe
+c:\users\hrist\onedrive\документи\visual studio 2017\Projects\07. Arrays\01. AllocateArray\bin\Debug\_01.AllocateArray.pdb
+c:\users\hrist\onedrive\документи\visual studio 2017\Projects\07. Arrays\01. AllocateArray\obj\Debug\01. AllocateArray.csprojResolveAssemblyReference.cache
+c:\users\hrist\onedrive\документи\visual studio 2017\Projects\07. Arrays\01. AllocateArray\obj\Debug\_01.AllocateArray.exe
+c:\users\hrist\onedrive\документи\visual studio 2017\Projects\07. Arrays\01. AllocateArray\obj\Debug\_01.AllocateArray.pdb

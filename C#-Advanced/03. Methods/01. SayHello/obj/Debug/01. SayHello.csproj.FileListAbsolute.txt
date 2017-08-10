@@ -1,0 +1,6 @@
+c:\users\hrist\onedrive\документи\visual studio 2017\Projects\03. Methods\01. SayHello\bin\Debug\_01.SayHello.exe.config
+c:\users\hrist\onedrive\документи\visual studio 2017\Projects\03. Methods\01. SayHello\bin\Debug\_01.SayHello.exe
+c:\users\hrist\onedrive\документи\visual studio 2017\Projects\03. Methods\01. SayHello\bin\Debug\_01.SayHello.pdb
+c:\users\hrist\onedrive\документи\visual studio 2017\Projects\03. Methods\01. SayHello\obj\Debug\01. SayHello.csprojResolveAssemblyReference.cache
+c:\users\hrist\onedrive\документи\visual studio 2017\Projects\03. Methods\01. SayHello\obj\Debug\_01.SayHello.exe
+c:\users\hrist\onedrive\документи\visual studio 2017\Projects\03. Methods\01. SayHello\obj\Debug\_01.SayHello.pdb

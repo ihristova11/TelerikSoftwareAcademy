@@ -1,0 +1,5 @@
+c:\users\hrist\onedrive\документи\visual studio 2017\Projects\03. Methods\04. AppearanceCount\bin\Debug\_04.AppearanceCount.exe.config
+c:\users\hrist\onedrive\документи\visual studio 2017\Projects\03. Methods\04. AppearanceCount\bin\Debug\_04.AppearanceCount.exe
+c:\users\hrist\onedrive\документи\visual studio 2017\Projects\03. Methods\04. AppearanceCount\bin\Debug\_04.AppearanceCount.pdb
+c:\users\hrist\onedrive\документи\visual studio 2017\Projects\03. Methods\04. AppearanceCount\obj\Debug\_04.AppearanceCount.exe
+c:\users\hrist\onedrive\документи\visual studio 2017\Projects\03. Methods\04. AppearanceCount\obj\Debug\_04.AppearanceCount.pdb

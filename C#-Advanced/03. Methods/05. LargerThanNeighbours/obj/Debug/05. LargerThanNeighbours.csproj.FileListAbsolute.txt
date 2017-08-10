@@ -1,0 +1,5 @@
+c:\users\hrist\onedrive\документи\visual studio 2017\Projects\03. Methods\05. LargerThanNeighbours\bin\Debug\_05.LargerThanNeighbours.exe.config
+c:\users\hrist\onedrive\документи\visual studio 2017\Projects\03. Methods\05. LargerThanNeighbours\bin\Debug\_05.LargerThanNeighbours.exe
+c:\users\hrist\onedrive\документи\visual studio 2017\Projects\03. Methods\05. LargerThanNeighbours\bin\Debug\_05.LargerThanNeighbours.pdb
+c:\users\hrist\onedrive\документи\visual studio 2017\Projects\03. Methods\05. LargerThanNeighbours\obj\Debug\_05.LargerThanNeighbours.exe
+c:\users\hrist\onedrive\документи\visual studio 2017\Projects\03. Methods\05. LargerThanNeighbours\obj\Debug\_05.LargerThanNeighbours.pdb

@@ -1,0 +1,5 @@
+c:\users\hrist\onedrive\документи\visual studio 2017\Projects\07. Arrays\03. CompareCharArrays\bin\Debug\_03.CompareCharArrays.exe.config
+c:\users\hrist\onedrive\документи\visual studio 2017\Projects\07. Arrays\03. CompareCharArrays\bin\Debug\_03.CompareCharArrays.exe
+c:\users\hrist\onedrive\документи\visual studio 2017\Projects\07. Arrays\03. CompareCharArrays\bin\Debug\_03.CompareCharArrays.pdb
+c:\users\hrist\onedrive\документи\visual studio 2017\Projects\07. Arrays\03. CompareCharArrays\obj\Debug\_03.CompareCharArrays.exe
+c:\users\hrist\onedrive\документи\visual studio 2017\Projects\07. Arrays\03. CompareCharArrays\obj\Debug\_03.CompareCharArrays.pdb
