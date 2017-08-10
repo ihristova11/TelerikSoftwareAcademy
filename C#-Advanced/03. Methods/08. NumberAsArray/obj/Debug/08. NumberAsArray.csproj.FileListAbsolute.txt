@@ -1,0 +1,6 @@
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\C#-Advanced\03. Methods\08. NumberAsArray\bin\Debug\_08.NumberAsArray.exe.config
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\C#-Advanced\03. Methods\08. NumberAsArray\bin\Debug\_08.NumberAsArray.exe
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\C#-Advanced\03. Methods\08. NumberAsArray\bin\Debug\_08.NumberAsArray.pdb
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\C#-Advanced\03. Methods\08. NumberAsArray\obj\Debug\08. NumberAsArray.csprojResolveAssemblyReference.cache
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\C#-Advanced\03. Methods\08. NumberAsArray\obj\Debug\_08.NumberAsArray.exe
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\C#-Advanced\03. Methods\08. NumberAsArray\obj\Debug\_08.NumberAsArray.pdb
