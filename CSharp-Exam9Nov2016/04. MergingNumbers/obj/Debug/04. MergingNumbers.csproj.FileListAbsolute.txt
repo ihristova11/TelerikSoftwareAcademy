@@ -1,0 +1,6 @@
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\CSharp-Exam9Nov2016\04. MergingNumbers\bin\Debug\_04.MergingNumbers.exe.config
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\CSharp-Exam9Nov2016\04. MergingNumbers\bin\Debug\_04.MergingNumbers.exe
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\CSharp-Exam9Nov2016\04. MergingNumbers\bin\Debug\_04.MergingNumbers.pdb
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\CSharp-Exam9Nov2016\04. MergingNumbers\obj\Debug\04. MergingNumbers.csprojResolveAssemblyReference.cache
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\CSharp-Exam9Nov2016\04. MergingNumbers\obj\Debug\_04.MergingNumbers.exe
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\CSharp-Exam9Nov2016\04. MergingNumbers\obj\Debug\_04.MergingNumbers.pdb

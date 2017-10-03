@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7C525851-9790-4FF2-BEE2-4C7621616554}</ProjectGuid>
+    <ProjectGuid>{12F1EFB8-E3F2-49FC-90D1-F04467CA2A43}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_12.IntegerCalculations</RootNamespace>
-    <AssemblyName>_12.IntegerCalculations</AssemblyName>
+    <RootNamespace>_04.MergingNumbers</RootNamespace>
+    <AssemblyName>_04.MergingNumbers</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -34,7 +34,6 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Numerics" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -43,7 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IntegerCalculations.cs" />
+    <Compile Include="MergingNumbers.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
