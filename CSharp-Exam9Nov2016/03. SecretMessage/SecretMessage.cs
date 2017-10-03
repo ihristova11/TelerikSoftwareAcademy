@@ -36,12 +36,12 @@ namespace _03.SecretMessage
                 {
                     if(e < 0)
                     {
-                        e = input.Length - e;
+                        e = input.Length - 1 + e;
                     }
 
                     if (s < 0)
                     {
-                        s = input.Length - s;
+                        s = input.Length - 1 + s;
                     }
                     
                     for (int i = s; i <= e; i += 3)
@@ -53,12 +53,12 @@ namespace _03.SecretMessage
                 {
                     if (e < 0)
                     {
-                        e = input.Length - e;
+                        e = input.Length - 1 + e;
                     }
 
                     if (s < 0)
                     {
-                        s = input.Length - s;
+                        s = input.Length - 1 +  s;
                     }
 
                     for (int i = s; i <= e; i += 4)
