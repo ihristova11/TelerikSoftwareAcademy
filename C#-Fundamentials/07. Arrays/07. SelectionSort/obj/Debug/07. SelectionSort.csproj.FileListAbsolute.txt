@@ -1,0 +1,6 @@
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\C#-Fundamentials\07. Arrays\07. SelectionSort\bin\Debug\_07.SelectionSort.exe.config
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\C#-Fundamentials\07. Arrays\07. SelectionSort\bin\Debug\_07.SelectionSort.exe
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\C#-Fundamentials\07. Arrays\07. SelectionSort\bin\Debug\_07.SelectionSort.pdb
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\C#-Fundamentials\07. Arrays\07. SelectionSort\obj\Debug\07. SelectionSort.csprojResolveAssemblyReference.cache
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\C#-Fundamentials\07. Arrays\07. SelectionSort\obj\Debug\_07.SelectionSort.exe
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\C#-Fundamentials\07. Arrays\07. SelectionSort\obj\Debug\_07.SelectionSort.pdb
