@@ -1,0 +1,5 @@
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\C#-Fundamentials\07. Arrays\06. MaximalKSum\bin\Debug\_06.MaximalKSum.exe.config
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\C#-Fundamentials\07. Arrays\06. MaximalKSum\bin\Debug\_06.MaximalKSum.exe
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\C#-Fundamentials\07. Arrays\06. MaximalKSum\bin\Debug\_06.MaximalKSum.pdb
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\C#-Fundamentials\07. Arrays\06. MaximalKSum\obj\Debug\_06.MaximalKSum.exe
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\C#-Fundamentials\07. Arrays\06. MaximalKSum\obj\Debug\_06.MaximalKSum.pdb
