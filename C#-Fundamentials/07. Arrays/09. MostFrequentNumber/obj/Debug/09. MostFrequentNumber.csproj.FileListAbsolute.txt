@@ -1,0 +1,6 @@
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\C#-Fundamentials\07. Arrays\09. MostFrequentNumber\obj\Debug\09. MostFrequentNumber.csprojResolveAssemblyReference.cache
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\C#-Fundamentials\07. Arrays\09. MostFrequentNumber\bin\Debug\_09.MostFrequentNumber.exe.config
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\C#-Fundamentials\07. Arrays\09. MostFrequentNumber\bin\Debug\_09.MostFrequentNumber.exe
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\C#-Fundamentials\07. Arrays\09. MostFrequentNumber\bin\Debug\_09.MostFrequentNumber.pdb
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\C#-Fundamentials\07. Arrays\09. MostFrequentNumber\obj\Debug\_09.MostFrequentNumber.exe
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\C#-Fundamentials\07. Arrays\09. MostFrequentNumber\obj\Debug\_09.MostFrequentNumber.pdb
