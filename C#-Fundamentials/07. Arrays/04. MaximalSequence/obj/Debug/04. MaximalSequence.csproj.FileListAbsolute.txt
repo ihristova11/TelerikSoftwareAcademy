@@ -1,0 +1,6 @@
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\C#-Fundamentials\07. Arrays\04. MaximalSequence\bin\Debug\_04.MaximalSequence.exe.config
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\C#-Fundamentials\07. Arrays\04. MaximalSequence\bin\Debug\_04.MaximalSequence.exe
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\C#-Fundamentials\07. Arrays\04. MaximalSequence\bin\Debug\_04.MaximalSequence.pdb
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\C#-Fundamentials\07. Arrays\04. MaximalSequence\obj\Debug\04. MaximalSequence.csprojResolveAssemblyReference.cache
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\C#-Fundamentials\07. Arrays\04. MaximalSequence\obj\Debug\_04.MaximalSequence.exe
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\C#-Fundamentials\07. Arrays\04. MaximalSequence\obj\Debug\_04.MaximalSequence.pdb
