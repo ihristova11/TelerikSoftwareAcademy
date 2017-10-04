@@ -1,0 +1,6 @@
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\C#-Fundamentials\07. Arrays\10. BinarySearch\bin\Debug\_10.BinarySearch.exe.config
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\C#-Fundamentials\07. Arrays\10. BinarySearch\bin\Debug\_10.BinarySearch.exe
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\C#-Fundamentials\07. Arrays\10. BinarySearch\bin\Debug\_10.BinarySearch.pdb
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\C#-Fundamentials\07. Arrays\10. BinarySearch\obj\Debug\10. BinarySearch.csprojResolveAssemblyReference.cache
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\C#-Fundamentials\07. Arrays\10. BinarySearch\obj\Debug\_10.BinarySearch.exe
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\C#-Fundamentials\07. Arrays\10. BinarySearch\obj\Debug\_10.BinarySearch.pdb
