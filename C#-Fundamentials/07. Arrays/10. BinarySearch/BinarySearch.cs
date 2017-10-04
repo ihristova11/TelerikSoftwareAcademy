@@ -1,24 +1,48 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace _10.BinarySearch
+class BinarySearch
 {
-    class BinarySearch
+    static void Main()
     {
-        static void Main(string[] args)
+        int size = int.Parse(Console.ReadLine());
+        var arr = new int[size];
+        for (int i = 0; i < size; i++)
         {
-            int n = int.Parse(Console.ReadLine());
-            int[] arr = new int[n];
-
-            for (int i = 0; i < n; i++)
+            arr[i] = int.Parse(Console.ReadLine());
+        }
+        int needed = int.Parse(Console.ReadLine());
+        int min = 0;
+        int max = size;
+        int mid;
+        while (true)
+        {
+            mid = (min + max) / 2;
+            if (needed > arr[mid])
             {
-                arr[i] = int.Parse(Console.ReadLine());
+                min = mid + 1;  //needed in end
             }
-            int x = int.Parse(Console.ReadLine());
-            Console.WriteLine(Array.BinarySearch(arr, x)); 
+            else
+            {
+                max = mid; //needed in beggining
+            }
+            if (min == max || min == max - 1) //output
+            {
+                if (arr[min] == needed)
+                {
+                    Console.WriteLine(min);
+                    return;
+                }
+                else if (arr[max] == needed)
+                {
+                    Console.WriteLine(max);
+                    return;
+                }
+                else
+                {
+                    Console.WriteLine(-1);
+                    return;
+                }
+            }
         }
     }
 }
