@@ -10,76 +10,60 @@ namespace _03.SecretMessage
     {
         static void Main(string[] args)
         {
-            int s;
-            int e;
-            string input = "";
-            string output = "";
-            int counter = 0;
-            string input2 = "";
-
-
-            s = int.Parse(Console.ReadLine());
-            while (input2 != "end")
+            int n = int.Parse(Console.ReadLine());
+            int max_x = 0;
+            int max_sum = 0, sum = 0, prev = (int)(1e9), curr_len = 0, max_len = 0, curr_sum = 0;
+            for (int i = 0; i < n; i++)
             {
-                counter++;
-                e = int.Parse(Console.ReadLine());
-                counter++;
-                input = Console.ReadLine();
-                counter++;
+                int x = int.Parse(Console.ReadLine());
+                max_x = (max_x < x) ? x : max_x;
 
-                if(e > input.Length)
+                if(prev >= x)
                 {
-                    e = input.Length;
-                }
-                
-                if (counter % 2 == 1)
-                {
-                    if(e < 0)
+                    prev = x;
+                    if (curr_len > 1 && curr_sum > 0)
                     {
-                        e = input.Length + e;
-                    }
+                        if (max_len < curr_len)
+                        {
+                            max_len = curr_len;
+                            max_sum = curr_sum;
+                        }
+                        else if (max_len == curr_len)
+                        {
+                            max_sum = (max_sum < curr_sum) ? curr_sum : max_sum;
+                        }
 
-                    if (s < 0)
-                    {
-                        s = input.Length + s;
+                        curr_sum = x;
+                        curr_len = 1;
                     }
-                    
-                    for (int i = s; i <= e; i += 3)
+                    else
                     {
-                        output += input[i];
-                    }
-                }
-                else
-                {
-                    if (e < 0)
-                    {
-                        e = input.Length  + e;
-                    }
-
-                    if (s < 0)
-                    {
-                        s = input.Length +  s;
-                    }
-
-                    for (int i = s; i <= e; i += 4)
-                    {
-                        output += input[i];
+                        curr_len++;
+                        curr_sum += x;
                     }
                 }
 
-
-                input2 = Console.ReadLine();
-                if (input2 == "end")
-                {
-                    break;
-                }
-                else
-                {
-                    s = int.Parse(input2);
-                }
                 
             }
-            Console.WriteLine(output);
+
+            if (curr_len > 1 && curr_sum > 0)
+            {
+                if (max_len < curr_len)
+                {
+                    max_len = curr_len;
+                    max_sum = curr_sum;
+                }
+                else if (max_len == curr_len)
+                {
+                    max_sum = (max_sum < curr_sum) ? curr_sum : max_sum;
+                }
+
+                if(max_sum == 0)
+                {
+                    max_sum = max_x;
+                }
+            }
+            Console.WriteLine(max_sum);
         }
     }
 }
