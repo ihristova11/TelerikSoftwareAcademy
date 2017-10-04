@@ -1,0 +1,6 @@
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\C#-Fundamentials\07. Arrays\05. MaximalIncreasingSequence\obj\Debug\05. MaximalIncreasingSequence.csprojResolveAssemblyReference.cache
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\C#-Fundamentials\07. Arrays\05. MaximalIncreasingSequence\bin\Debug\_05.MaximalIncreasingSequence.exe.config
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\C#-Fundamentials\07. Arrays\05. MaximalIncreasingSequence\bin\Debug\_05.MaximalIncreasingSequence.exe
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\C#-Fundamentials\07. Arrays\05. MaximalIncreasingSequence\bin\Debug\_05.MaximalIncreasingSequence.pdb
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\C#-Fundamentials\07. Arrays\05. MaximalIncreasingSequence\obj\Debug\_05.MaximalIncreasingSequence.exe
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\C#-Fundamentials\07. Arrays\05. MaximalIncreasingSequence\obj\Debug\_05.MaximalIncreasingSequence.pdb
