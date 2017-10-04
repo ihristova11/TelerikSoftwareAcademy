@@ -1,0 +1,5 @@
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\C#-Fundamentials\07. Arrays\11. IndexOfLetters\bin\Debug\_11.IndexOfLetters.exe.config
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\C#-Fundamentials\07. Arrays\11. IndexOfLetters\bin\Debug\_11.IndexOfLetters.exe
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\C#-Fundamentials\07. Arrays\11. IndexOfLetters\bin\Debug\_11.IndexOfLetters.pdb
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\C#-Fundamentials\07. Arrays\11. IndexOfLetters\obj\Debug\_11.IndexOfLetters.exe
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\C#-Fundamentials\07. Arrays\11. IndexOfLetters\obj\Debug\_11.IndexOfLetters.pdb
