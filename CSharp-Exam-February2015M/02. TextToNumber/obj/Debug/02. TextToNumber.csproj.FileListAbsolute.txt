@@ -1,0 +1,6 @@
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\CSharp-Exam-February2015M\02. TextToNumber\bin\Debug\_02.TextToNumber.exe.config
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\CSharp-Exam-February2015M\02. TextToNumber\bin\Debug\_02.TextToNumber.exe
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\CSharp-Exam-February2015M\02. TextToNumber\bin\Debug\_02.TextToNumber.pdb
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\CSharp-Exam-February2015M\02. TextToNumber\obj\Debug\02. TextToNumber.csprojResolveAssemblyReference.cache
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\CSharp-Exam-February2015M\02. TextToNumber\obj\Debug\_02.TextToNumber.exe
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\CSharp-Exam-February2015M\02. TextToNumber\obj\Debug\_02.TextToNumber.pdb
