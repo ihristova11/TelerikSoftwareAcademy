@@ -1,0 +1,6 @@
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\CSharp-Exam-February2015M\01. Printing\bin\Debug\_01.Printing.exe.config
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\CSharp-Exam-February2015M\01. Printing\bin\Debug\_01.Printing.exe
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\CSharp-Exam-February2015M\01. Printing\bin\Debug\_01.Printing.pdb
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\CSharp-Exam-February2015M\01. Printing\obj\Debug\01. Printing.csprojResolveAssemblyReference.cache
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\CSharp-Exam-February2015M\01. Printing\obj\Debug\_01.Printing.exe
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\CSharp-Exam-February2015M\01. Printing\obj\Debug\_01.Printing.pdb
