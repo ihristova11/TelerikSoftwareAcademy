@@ -15,5 +15,6 @@ class IndexOfLetters
         {
             Console.WriteLine(Array.IndexOf(letters, input[j]));
         }
+        
     }
 }
