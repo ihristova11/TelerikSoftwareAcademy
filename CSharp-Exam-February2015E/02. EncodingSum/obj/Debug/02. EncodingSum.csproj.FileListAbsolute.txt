@@ -3,3 +3,4 @@ C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\CSharp-
 C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\CSharp-Exam-February2015E\02. EncodingSum\bin\Debug\_02.EncodingSum.pdb
 C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\CSharp-Exam-February2015E\02. EncodingSum\obj\Debug\_02.EncodingSum.exe
 C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\CSharp-Exam-February2015E\02. EncodingSum\obj\Debug\_02.EncodingSum.pdb
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\CSharp-Exam-February2015E\02. EncodingSum\obj\Debug\02. EncodingSum.csprojResolveAssemblyReference.cache
