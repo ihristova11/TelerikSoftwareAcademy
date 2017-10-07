@@ -1,0 +1,5 @@
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\CSharp-Exam-February2015E\05. SequencesOfBits\bin\Debug\_05.SequencesOfBits.exe.config
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\CSharp-Exam-February2015E\05. SequencesOfBits\bin\Debug\_05.SequencesOfBits.exe
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\CSharp-Exam-February2015E\05. SequencesOfBits\bin\Debug\_05.SequencesOfBits.pdb
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\CSharp-Exam-February2015E\05. SequencesOfBits\obj\Debug\_05.SequencesOfBits.exe
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\CSharp-Exam-February2015E\05. SequencesOfBits\obj\Debug\_05.SequencesOfBits.pdb
