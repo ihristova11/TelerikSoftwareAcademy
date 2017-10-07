@@ -1,0 +1,5 @@
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\CSharp-Exam-3February2015M\02. Decoding\bin\Debug\_02.Decoding.exe.config
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\CSharp-Exam-3February2015M\02. Decoding\bin\Debug\_02.Decoding.exe
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\CSharp-Exam-3February2015M\02. Decoding\bin\Debug\_02.Decoding.pdb
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\CSharp-Exam-3February2015M\02. Decoding\obj\Debug\_02.Decoding.exe
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\CSharp-Exam-3February2015M\02. Decoding\obj\Debug\_02.Decoding.pdb
