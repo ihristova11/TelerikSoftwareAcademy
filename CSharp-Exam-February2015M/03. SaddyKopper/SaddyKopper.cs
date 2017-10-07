@@ -31,7 +31,7 @@ class SaddyKopper
             if(transform == 10)
             {
                 transformed = false;
-                Console.WriteLine(number);
+                //Console.WriteLine(number);
                 break;
             }
         }
