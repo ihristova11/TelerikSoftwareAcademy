@@ -1,0 +1,5 @@
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\CSharp-Exam-3February2015M\01. ThreeNumbers\bin\Debug\_01.ThreeNumbers.exe.config
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\CSharp-Exam-3February2015M\01. ThreeNumbers\bin\Debug\_01.ThreeNumbers.exe
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\CSharp-Exam-3February2015M\01. ThreeNumbers\bin\Debug\_01.ThreeNumbers.pdb
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\CSharp-Exam-3February2015M\01. ThreeNumbers\obj\Debug\_01.ThreeNumbers.exe
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\CSharp-Exam-3February2015M\01. ThreeNumbers\obj\Debug\_01.ThreeNumbers.pdb
