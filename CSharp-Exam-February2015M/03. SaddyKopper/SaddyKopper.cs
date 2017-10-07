@@ -7,26 +7,38 @@ class SaddyKopper
     public static void Main()
     {
         string number = Console.ReadLine();
-        int transformations = 0;
-        while (number.Length > 1 && transformations < 10)
+        int transform = 0;
+        bool transformed = true;
+        while(number.Length > 1)
         {
             BigInteger product = 1;
-            while (number.Length > 0)
+            int sum = 0;
+            int position = 0;
+            foreach(var symbol in number)
             {
-                number.Substring(0, number.Length - 1);
-                int sum = 0;
-                for (int i = 0; i < number.Length; i += 2)
+                if (position % 2 == 0)
                 {
-                    sum += int.Parse(number[i].ToString());
+                    int digit = symbol - '0';
+                    sum += digit;
                 }
-                product *= sum != 0 ? sum : 1;
+                product *= sum;
+                position++;
             }
-            transformations++;
+
+            product /= sum;
+            transform++;
             number = product.ToString();
+            if(transform == 10)
+            {
+                transformed = false;
+                Console.WriteLine(number);
+                break;
+            }
         }
-        if (transformations < 10)
+
+        if(transformed)
         {
-            Console.WriteLine(transformations);
+            Console.WriteLine(transform);
         }
         Console.WriteLine(number);
     }
