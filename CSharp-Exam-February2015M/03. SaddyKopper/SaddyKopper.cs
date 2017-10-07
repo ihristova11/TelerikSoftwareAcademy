@@ -1,50 +1,41 @@
 ﻿using System;
+using System.Numerics;
 using System.Text;
 
 class SaddyKopper
 {
+    public static object BigInteger { get; private set; }
+
     static void Main()
     {
-        StringBuilder number = new StringBuilder(Console.ReadLine());
-        TransformNumber(number);
-    }
+        string number = Console.ReadLine();
+        //number = number.Substring(number.Length - 1, 1);
+        BigInteger product = 1;
 
-    static void TransformNumber(StringBuilder number)
-    {        
-        number.Remove(number.Length - 1, 1);
-        //Console.WriteLine(number + " " + number.Length);
-        int sum = 0, product = 1, transformations = 0;
-        while(number.Length != 0)
+        int sum = 0, transformations = 0;
+        while (number.Length > 1 && transformations < 10)
         {
-            Console.WriteLine("while" + number);
-            for (int i = 0; i < number.Length; i += 2)
+            product = 1;
+            while (number.Length > 0)
             {
-                Console.WriteLine("for" + number);
-                sum += number[i];
+                number.Remove(number.Length - 1, 1);
+                sum = 0;
+                for (int i = 0; i < number.Length; i += 2)
+                {
+                    sum += int.Parse(number[i].ToString());
+                }
+                product *= sum != 0 ? sum : 1;
             }
-            
-            number.Remove(number.Length - 1, 1);
-            product *= sum;
-            sum = 0;
+            transformations++;
+            number = product.ToString();
         }
-        transformations++;
-        number = new StringBuilder(product);
-        product = 1;
 
 
-        if(number.Length == 1)
+
+        if (transformations < 10)
         {
             Console.WriteLine(transformations);
-            Console.WriteLine(number);
         }
-        else if(transformations != 10)
-        {
-            TransformNumber(number);
-        }
-        else if(transformations == 10)
-        {
-            Console.WriteLine(number);
-        }
+        Console.WriteLine(number);
     }
 }
-
