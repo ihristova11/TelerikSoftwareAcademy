@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. SaddyKopper", "03. Sadd
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Cube", "04. Cube\04. Cube.csproj", "{969946C4-9EB7-413B-8ED5-3C47865D25D3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. BitsToBits", "05. BitsToBits\05. BitsToBits.csproj", "{38957562-3DD9-41D7-946D-DE83EBBC1879}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{969946C4-9EB7-413B-8ED5-3C47865D25D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{969946C4-9EB7-413B-8ED5-3C47865D25D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{969946C4-9EB7-413B-8ED5-3C47865D25D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38957562-3DD9-41D7-946D-DE83EBBC1879}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38957562-3DD9-41D7-946D-DE83EBBC1879}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38957562-3DD9-41D7-946D-DE83EBBC1879}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38957562-3DD9-41D7-946D-DE83EBBC1879}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,6 @@
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\CSharp-Exam-February2015M\05. BitsToBits\bin\Debug\_05.BitsToBits.exe.config
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\CSharp-Exam-February2015M\05. BitsToBits\bin\Debug\_05.BitsToBits.exe
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\CSharp-Exam-February2015M\05. BitsToBits\bin\Debug\_05.BitsToBits.pdb
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\CSharp-Exam-February2015M\05. BitsToBits\obj\Debug\05. BitsToBits.csprojResolveAssemblyReference.cache
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\CSharp-Exam-February2015M\05. BitsToBits\obj\Debug\_05.BitsToBits.exe
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\CSharp-Exam-February2015M\05. BitsToBits\obj\Debug\_05.BitsToBits.pdb
