@@ -1,15 +1,28 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _03.Maslan
 {
-    class Program
+    class Maslan
     {
-        static void Main(string[] args)
+        static void Main()
         {
+            string number = Console.ReadLine(); // step 1
+
+            while(number.Length > 1)
+            {
+                number = number.Substring(0, number.Length - 1); // step 2 
+
+                int sum = 0;
+                int position = 0;
+                foreach (var symbol in number)
+                {
+                    if(position % 2 == 1)
+                    {
+                        sum += symbol - '0';
+                    }
+                    position++;
+                }
+            }
         }
     }
 }
