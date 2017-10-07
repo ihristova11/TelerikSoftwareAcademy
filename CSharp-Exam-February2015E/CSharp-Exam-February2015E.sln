@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. EncodingSum", "02. Enco
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Maslan", "03. Maslan\03. Maslan.csproj", "{E469C078-6F8D-4D61-852A-43EEEB31DF4E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Cube-3D", "04. Cube-3D\04. Cube-3D.csproj", "{CC3599A2-F31E-4838-968D-5C62A18F6750}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{E469C078-6F8D-4D61-852A-43EEEB31DF4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E469C078-6F8D-4D61-852A-43EEEB31DF4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E469C078-6F8D-4D61-852A-43EEEB31DF4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC3599A2-F31E-4838-968D-5C62A18F6750}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC3599A2-F31E-4838-968D-5C62A18F6750}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC3599A2-F31E-4838-968D-5C62A18F6750}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC3599A2-F31E-4838-968D-5C62A18F6750}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

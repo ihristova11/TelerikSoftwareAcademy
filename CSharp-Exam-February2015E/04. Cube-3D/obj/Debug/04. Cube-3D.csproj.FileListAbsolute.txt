@@ -1,0 +1,6 @@
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\CSharp-Exam-February2015E\04. Cube-3D\bin\Debug\_04.Cube_3D.exe.config
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\CSharp-Exam-February2015E\04. Cube-3D\bin\Debug\_04.Cube_3D.exe
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\CSharp-Exam-February2015E\04. Cube-3D\bin\Debug\_04.Cube_3D.pdb
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\CSharp-Exam-February2015E\04. Cube-3D\obj\Debug\04. Cube-3D.csprojResolveAssemblyReference.cache
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\CSharp-Exam-February2015E\04. Cube-3D\obj\Debug\_04.Cube_3D.exe
+C:\Users\hrist\OneDrive\Документи\GitHub\TelerikSoftwareAcademy\CSharp-Exam-February2015E\04. Cube-3D\obj\Debug\_04.Cube_3D.pdb
