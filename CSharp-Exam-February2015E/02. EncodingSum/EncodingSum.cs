@@ -7,15 +7,13 @@ namespace _02.EncodingSum
         static void Main()
         {
             int m = int.Parse(Console.ReadLine());
-            string text = Console.ReadLine();
+            string text = Console.ReadLine().ToLower();
             long result = 0;
-            text.ToLower();
             for (int i = 0; i < text.Length; i++)
             {
                 if (text[i] == '@')
                 {
-                    Console.WriteLine(result);
-                    return;
+                    break;
                 }
                 else if (text[i] >= '0' && text[i] <= '9')
                 {
