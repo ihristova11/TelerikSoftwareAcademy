@@ -10,8 +10,8 @@ class BitsToBits
         string binary = "";
         int zeros_max = int.MinValue;
         int ones_max = int.MinValue;
-        int zeros = 1;
-        int ones = 1;
+        int zeros = 0;
+        int ones = 0;
         for (int i = 0; i < n; i++)
         {
             number = int.Parse(Console.ReadLine());
@@ -39,20 +39,17 @@ class BitsToBits
                 ones_max = (ones_max < ones) ? ones : ones_max;
                 zeros_max = (zeros_max < zeros) ? zeros : zeros_max;
                 
-                zeros = 1;
-                ones = 1;
+                zeros = 0;
+                ones = 0;
             }
 
             
         }
         ones_max = (ones_max < ones) ? ones : ones_max;
         zeros_max = (zeros_max < zeros) ? zeros : zeros_max;
+        zeros_max = zeros_max == 0 ? 0 : zeros_max + 1;
+        ones_max = ones_max == 0 ? 0 : ones_max + 1;
 
-        //Console.WriteLine("zeros: " + zeros);
-        //Console.WriteLine("ones: " + ones);
-        //Console.WriteLine("maxZ: " + zeros_max);
-        //Console.WriteLine("maxO: " + ones_max);
-        //Console.WriteLine("-----------------");
 
         Console.WriteLine(zeros_max);
         Console.WriteLine(ones_max);
