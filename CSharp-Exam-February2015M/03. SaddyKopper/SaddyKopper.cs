@@ -18,11 +18,15 @@ class SaddyKopper
         number.Remove(number.Length - 1, 1);
         Console.WriteLine(number + " " + number.Length);
         int sum = 0, product = 1, transformations = 1;
-
-        for (int i = 0; i < number.Length; i+=2)
+        while(number.Length != 0)
         {
-
-        }
+            for (int i = 0; i < number.Length; i += 2)
+            {
+                sum += number[i];
+            }
+            product *= sum;
+            sum = 0;
+        }       
     }
 }
 
