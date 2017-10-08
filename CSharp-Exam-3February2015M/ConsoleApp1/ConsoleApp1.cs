@@ -1,47 +1,61 @@
 ﻿using System;
 using System.Numerics;
 
-class ConsoleApp1
+class Program
 {
-    public static void Main()
+    static void Main()
     {
-        BigInteger product = 1;
-        string input = Console.ReadLine();
-        BigInteger num;
-        int counter = 1;
         int position = 0;
-        int digitsProduct = 1;
-        while (input != "END")
+        string line = Console.ReadLine();
+
+        BigInteger productOfFirstTen = 1;
+        BigInteger productOfOthers = 1;
+
+        bool hasTenNumbers = false;
+
+        while (line != "END")
         {
-            if (counter <= 10)
+            if (position % 2 == 1)
             {
-                if (position % 2 == 1)
+                string currentNumber = line;
+                BigInteger product = 1;
+
+                foreach (var symbol in currentNumber)
                 {
-                    num = BigInteger.Parse(input);
-                    if (num == 0) digitsProduct = 1;
-                    int digit;
-                    while (num != 0)
+                    if (symbol != '0')
                     {
-                        digit = int.Parse((num % 10).ToString());
-                        if (digit == 0) digit = 1;
-                        digitsProduct *= digit;
-                        num /= 10;
+                        product *= symbol - '0';
                     }
-                    product *= digitsProduct;
-                    digitsProduct = 1;
+                }
+
+                if (hasTenNumbers)
+                {
+                    productOfOthers *= product;
+                }
+                else
+                {
+                    productOfFirstTen *= product;
                 }
             }
-            else
-            {
-                Console.WriteLine(product);
-                product = 1;
-                counter -= 10;
-            }
-            input = Console.ReadLine();
-            counter++;
+
             position++;
+
+            if (position == 10)
+            {
+                hasTenNumbers = true;
+            }
+
+            line = Console.ReadLine();
         }
 
-        Console.WriteLine(product);
+        if (hasTenNumbers)
+        {
+            Console.WriteLine(productOfFirstTen);
+            Console.WriteLine(productOfOthers);
+        }
+        else
+        {
+            Console.WriteLine(productOfFirstTen);
+        }
     }
 }
