@@ -33,5 +33,5 @@ class Decoding
             Console.WriteLine(encodedChar);
         }
     }
-}
+}   
 
