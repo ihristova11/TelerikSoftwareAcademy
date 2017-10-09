@@ -13,22 +13,32 @@ class TheSecretOfNumbers
         {
             if ((number.Length - i) % 2 == 1) //odd positions case
             {
-                specialSum += int.Parse(number[i].ToString()) * i * i;
+                specialSum += int.Parse(number[i].ToString()) * (number.Length - i) * (number.Length - i);
             }
             else //even positions case 
             {
-                specialSum += i * int.Parse(number[i].ToString()) * int.Parse(number[i].ToString());
+                specialSum += (number.Length - i) * int.Parse(number[i].ToString()) * int.Parse(number[i].ToString());
             }
         }
         int lastDigit = specialSum %= 10;
-        if(lastDigit == 0)
+        if (lastDigit == 0)
         {
             hasSpecialSum = false;
+            secretAlphaSequence += number + " has no secret alpha-sequence";
         }
         else
         {
             int r = specialSum % 26;
+            int j = 0;
+            while (j < lastDigit)
+            {
+                secretAlphaSequence += (char)('A' + r + j);
+                j++;
+            }
         }
+        Console.WriteLine(secretAlphaSequence);
+        //Console.WriteLine(specialSum % 26 + 1);
+        //Console.WriteLine(specialSum);
     }
 }
 
