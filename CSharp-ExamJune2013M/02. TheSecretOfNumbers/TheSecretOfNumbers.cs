@@ -20,7 +20,7 @@ class TheSecretOfNumbers
                 specialSum += (number.Length - i) * int.Parse(number[i].ToString()) * int.Parse(number[i].ToString());
             }
         }
-        int lastDigit = specialSum %= 10;
+        int lastDigit = specialSum % 10;
         if (lastDigit == 0)
         {
             hasSpecialSum = false;
@@ -30,13 +30,21 @@ class TheSecretOfNumbers
         {
             int r = specialSum % 26;
             int j = 0;
+            int letter;
             while (j < lastDigit)
             {
-                secretAlphaSequence += (char)('A' + r + j);
+                letter = 'A' + r + j;
+                if (letter > 'Z')
+                {
+                    letter = letter - 'Z' + 'A' - 1;
+                }
+                secretAlphaSequence += (char)(letter);
                 j++;
+
             }
         }
         Console.WriteLine(secretAlphaSequence);
+        Console.WriteLine(specialSum);
         //Console.WriteLine(specialSum % 26 + 1);
         //Console.WriteLine(specialSum);
     }
