@@ -6,6 +6,10 @@ class TheSecretOfNumbers
     static void Main()
     {
         string number = Console.ReadLine();
+        //if (int.Parse(number) < 0)
+        //{
+        //    number = (int.Parse(number) * -1).ToString();
+        //}
         int specialSum = 0;
         bool hasSpecialSum = true;
         string secretAlphaSequence = "";
@@ -28,12 +32,12 @@ class TheSecretOfNumbers
         }
         else
         {
-            int r = specialSum % 26;
+            BigInteger r = specialSum % 26;
             int j = 0;
             int letter;
             while (j < lastDigit)
             {
-                letter = 'A' + r + j;
+                letter = (int)('A' + r + j);
                 if (letter > 'Z')
                 {
                     letter = letter - 'Z' + 'A' - 1;
@@ -43,8 +47,8 @@ class TheSecretOfNumbers
 
             }
         }
-        Console.WriteLine(secretAlphaSequence);
         Console.WriteLine(specialSum);
+        Console.WriteLine(secretAlphaSequence);
         //Console.WriteLine(specialSum % 26 + 1);
         //Console.WriteLine(specialSum);
     }
