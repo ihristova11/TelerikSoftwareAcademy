@@ -41,6 +41,14 @@ class FillTheMatrix
                 break;
 
             case "c":
+                int row = n - 1, col = 0;
+                matrix[n - 1, 0] = 1;
+                matrix[0, n - 1] = n * n;
+
+                while(row != 0 && col != n - 1)
+                {
+
+                }
 
                 break;
 
