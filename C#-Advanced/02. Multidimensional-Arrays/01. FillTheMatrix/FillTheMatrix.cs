@@ -24,11 +24,19 @@ class FillTheMatrix
                 break;
 
             case "b":
-                for (int row = 0; row < matrix.GetLength(0); row++)
+                counter = 1;
+                for (int col = 0; col < matrix.GetLength(0); col++)
                 {
-                    for (int col = 0; col < matrix.GetLength(1); col++)
+                    for (int row = 0; row < matrix.GetLength(1); row++)
                     {
-
+                        if(col % 2 == 0)
+                        {
+                            matrix[row, col] = (row + 1) + n * col;
+                        }
+                        else
+                        {
+                            matrix[row, col] = (col + 1) * n - row;
+                        }
                     }
                 }
                 break;
