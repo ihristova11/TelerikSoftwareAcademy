@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DEFF9370-1F09-4811-9E89-A77DEA0B8402}</ProjectGuid>
+    <ProjectGuid>{CA71F73B-08AB-4897-9CD2-C9FFF3CC2F7B}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_05.HexadecimalToBinary</RootNamespace>
-    <AssemblyName>_05.HexadecimalToBinary</AssemblyName>
+    <RootNamespace>_06.BinaryToHexadecimal</RootNamespace>
+    <AssemblyName>_06.BinaryToHexadecimal</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,7 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="HexadecimalToBinary.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
