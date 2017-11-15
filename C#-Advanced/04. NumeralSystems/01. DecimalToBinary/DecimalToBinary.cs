@@ -10,10 +10,7 @@
         {
             BigInteger n = BigInteger.Parse(Console.ReadLine());
 
-            Console.WriteLine(ToNBase(n, 2));
-
-            
-            
+            Console.WriteLine(ToNBase(n, 2));                  
         }
 
         public static string ToNBase(BigInteger a, int n)
