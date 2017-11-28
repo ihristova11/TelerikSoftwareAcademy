@@ -18,7 +18,8 @@
             }
 
             string text = string.Join(" ", lines);
-            Regex pattern = new Regex(@"([A-Z]).+?([.?!])");
+            Regex patternStatement = new Regex(@"([A-Z]).+?(.)");
+            Regex patternQuestion = new Regex(@"([A-Z]).+?([?])");
             //Console.WriteLine(text);
         }
     }
