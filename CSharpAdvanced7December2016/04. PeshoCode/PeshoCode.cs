@@ -1,6 +1,7 @@
 ﻿namespace _04.PeshoCode
 {
     using System;
+    using System.Text.RegularExpressions;
 
     class PeshoCode
     {
@@ -17,7 +18,7 @@
             }
 
             string text = string.Join(" ", lines);
-
+            Regex pattern = new Regex(@"([A-Z]).+?([.?!])");
             //Console.WriteLine(text);
         }
     }
