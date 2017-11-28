@@ -6,6 +6,8 @@
     {
         static void Main()
         {
+            string word = Console.ReadLine();
+            int numberOfLines = int.Parse(Console.ReadLine());
         }
     }
 }
