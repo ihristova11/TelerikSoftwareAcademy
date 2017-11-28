@@ -40,10 +40,10 @@
 
         public static string ConvertTo10Base(int currBase, string numberToConvert)
         {
-            double result = 0;
+            int result = 0;
             for (int i = numberToConvert.Length - 1; i >= 0; i--)
             {
-                result += double.Parse(numberToConvert[i].ToString()) * Math.Pow(currBase, numberToConvert.Length - 1 - i);
+                result += int.Parse(numberToConvert[i].ToString()) * (int)Math.Pow(currBase, numberToConvert.Length - 1 - i);
             }
 
             return result.ToString();
