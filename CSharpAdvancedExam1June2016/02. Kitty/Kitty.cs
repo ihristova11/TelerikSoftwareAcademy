@@ -13,9 +13,10 @@
             int position = 0;
             int souls = 0, deadlocks = 0, food = 0;
             //bool[] beenThere = new bool[directions.Length];
+
             for (int direction = 0; direction < directions.Length; direction++)
             {
-                if (direction == 0) { position = 0; }
+                if (position == 0) { direction = -1; }
                 else
                 {
                     position += directions[direction];
