@@ -43,6 +43,7 @@
 
             var matrix = new int[rowsCount, colsCount];
 
+            // fill the matrix
             for (int i = rowsCount - 1; i >= 0; i--)
             {
                 for (int j = 0; j < colsCount; j++)
@@ -83,8 +84,9 @@
                         matrix[row, col] = 0;
                     }
                 }
-                Console.WriteLine(sum);
             }
+
+            Console.WriteLine(sum);
         }
     }
 }
