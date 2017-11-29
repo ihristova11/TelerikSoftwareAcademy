@@ -2,6 +2,7 @@
 {
     using System;
     using System.Linq;
+    using System.Numerics;
 
     class EvenDifferences
     {
@@ -11,9 +12,9 @@
                 .Split(new string[] { " " }, StringSplitOptions.RemoveEmptyEntries)
                 .Select(int.Parse)
                 .ToArray();
-            int evenSum = 0;
+            long evenSum = 0;
             int jumps = 1;
-            int difference = 0;
+            long difference = 0;
 
             for (int i = 1; i < numbers.Length; i+=jumps)
             {
@@ -29,11 +30,11 @@
                 if (difference % 2 == 0)
                 {
                     evenSum += difference;
-                    jumps = 2;
+                    i += 2;
                 }
                 else
                 {
-                    jumps = 1;
+                    i++;
                 }
             }
 
