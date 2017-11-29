@@ -1,6 +1,7 @@
 ﻿namespace _03.LoverOfThree
 {
     using System;
+    using System.Linq;
 
     class LoverOfThree
     {
@@ -29,12 +30,17 @@
                 case "DL":return 3;
                     break;
 
-                default: return;
+                default: throw new ArgumentException();
             }
         }
 
         static void Main()
         {
+            // reading the input
+            int[] dimensions = Console.ReadLine()
+                .Split(new string[] { " " }, StringSplitOptions.RemoveEmptyEntries)
+                .Select(int.Parse)
+                .ToArray();
         }
     }
 }
