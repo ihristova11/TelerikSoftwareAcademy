@@ -54,6 +54,7 @@
 
             int movesCount = int.Parse(Console.ReadLine());
 
+            // setting the start position
             int row = rowsCount - 1;
             int col = 0;
 
