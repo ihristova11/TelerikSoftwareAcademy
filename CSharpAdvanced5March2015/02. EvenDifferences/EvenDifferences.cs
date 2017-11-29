@@ -11,6 +11,21 @@
                 .Split(new string[] { " " }, StringSplitOptions.RemoveEmptyEntries)
                 .Select(int.Parse)
                 .ToArray();
+            int evenSum = 0;
+            int jumps = 1;
+            int difference = 0;
+
+            for (int i = 1; i < numbers.Length; i+=jumps)
+            {
+                if(numbers[i] > numbers[i-1])
+                {
+                    difference = numbers[i] - numbers[i - 1];
+                }
+                else
+                {
+                    difference = numbers[i - 1] - numbers[i];
+                }
+            }
         }
     }
 }
