@@ -25,7 +25,16 @@
                 {
                     difference = numbers[i - 1] - numbers[i];
                 }
+
+                if(difference % 2 ==0)
+                {
+                    evenSum += difference;
+                }
+
+                jumps = difference;
             }
+
+            Console.WriteLine(evenSum);
         }
     }
 }
