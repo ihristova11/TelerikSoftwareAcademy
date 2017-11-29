@@ -8,6 +8,8 @@
         static int[,] matrix;
         static int[] rows = { -1, -1, 1, 1 };
         static int[] cols = { -1, 1, 1, -1 };
+        static int r;
+        static int c;
 
         static int GetMoveDirection(string direction)
         {
@@ -41,6 +43,9 @@
                 .Split(new string[] { " " }, StringSplitOptions.RemoveEmptyEntries)
                 .Select(int.Parse)
                 .ToArray();
+            r = dimensions[0];
+            c = dimensions[1];
+            int directionsNumber = int.Parse(Console.ReadLine());
         }
     }
 }
