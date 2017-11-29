@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27004.2009
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. EvenDifferences", "02. EvenDifferences\02. EvenDifferences.csproj", "{81BF8009-CE0B-4975-BB88-5A80319BE49B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. LoverOfThree", "03. LoverOfThree\03. LoverOfThree.csproj", "{D045A46C-A283-499B-B9A4-DEC766B0B786}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{81BF8009-CE0B-4975-BB88-5A80319BE49B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81BF8009-CE0B-4975-BB88-5A80319BE49B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81BF8009-CE0B-4975-BB88-5A80319BE49B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D045A46C-A283-499B-B9A4-DEC766B0B786}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D045A46C-A283-499B-B9A4-DEC766B0B786}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D045A46C-A283-499B-B9A4-DEC766B0B786}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D045A46C-A283-499B-B9A4-DEC766B0B786}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
