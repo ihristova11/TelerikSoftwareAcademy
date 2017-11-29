@@ -5,12 +5,9 @@
 
     class LoverOfThree
     {
-        static int[,] matrix;
         static int[] rows = { -1, -1, 1, 1 };
         static int[] cols = { -1, 1, 1, -1 };
-        static int r;
-        static int c;
-        static int sum = 0;
+
         static int GetMoveDirection(string direction)
         {
             switch (direction)
@@ -39,54 +36,45 @@
         static void Main()
         {
             // reading the input
-            int[] dimensions = Console.ReadLine()
-                .Split(new string[] { " " }, StringSplitOptions.RemoveEmptyEntries)
-                .Select(int.Parse)
-                .ToArray();
-            r = dimensions[0];
-            c = dimensions[1];
-            matrix = new int[r, c];
+            int[] arrNum = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
 
-            //FILL THE MATRIX
-            for (int i = r - 1; i >= 0; i--)
+            int rowsCount = arrNum[0];
+            int colsCount = arrNum[1];
+
+            var matrix = new int[rowsCount, colsCount];
+
+            for (int i = rowsCount - 1; i >= 0; i--)
             {
-                for (int j = 0; j < c; j++)
+                for (int j = 0; j < colsCount; j++)
                 {
-                    matrix[i, j] = (r - 1 - i) * 3 + j * 3;
+                    matrix[i, j] = (rowsCount - 1 - i) * 3 + j * 3;
                 }
             }
 
-            int directionsNumber = int.Parse(Console.ReadLine());
+            int movesCount = int.Parse(Console.ReadLine());
 
-            ////print the matrix
-            //for (int i = 0; i < r; i++)
-            //{
-            //    for (int j = 0; j < c; j++)
-            //    {
-            //        Console.Write(matrix[i, j] + " ");
-            //    }
-            //    Console.WriteLine();
-            //}
+            int row = rowsCount - 1;
+            int col = 0;
 
-            for (int i = 0; i < directionsNumber; i++)
+            int sum = 0;
+
+            for (int i = 0; i < movesCount; i++)
             {
-                var input = Console.ReadLine().Split(new string[] { " " }, StringSplitOptions.RemoveEmptyEntries);
+                var input = Console.ReadLine().Split(' ');
                 var dir = input[0];
-                var repeats = int.Parse(input[1]);
+                var repeat = int.Parse(input[1]);
 
-                var moveDirection = GetMoveDirection(dir);
-                var row = r - 1;
-                var col = 0;
+                var moveDir = GetMoveDirection(dir);
 
-                for (int j = 0; j < repeats - 1; j++)
+                for (int j = 0; j < repeat - 1; j++)
                 {
-                    row += rows[moveDirection];
-                    col += cols[moveDirection];
+                    row += rows[moveDir];
+                    col += cols[moveDir];
 
-                    if (row > r - 1 || col > c - 1 || row < 0 || col < 0)
+                    if (row > rowsCount - 1 || row < 0 || col > colsCount - 1 || col < 0)
                     {
-                        row -= rows[moveDirection];
-                        col -= cols[moveDirection];
+                        row -= rows[moveDir];
+                        col -= cols[moveDir];
                         break;
                     }
                     else
@@ -95,8 +83,8 @@
                         matrix[row, col] = 0;
                     }
                 }
+                Console.WriteLine(sum);
             }
-            Console.WriteLine(sum);
         }
     }
 }
