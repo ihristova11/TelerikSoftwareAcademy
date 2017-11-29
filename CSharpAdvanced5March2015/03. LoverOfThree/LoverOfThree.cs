@@ -55,9 +55,23 @@
             c = dimensions[1];
             int directionsNumber = int.Parse(Console.ReadLine());
 
+            //FILL THE MATRIX
+
+                
             for (int i = 0; i < directionsNumber; i++)
             {
+                var input = Console.ReadLine().Split(new string[] { "" }, StringSplitOptions.RemoveEmptyEntries);
+                var dir = input[0];
+                var repeats = input[1];
 
+                var moveDirection = GetMoveDirection(dir);
+                var row = r - 1;
+                var col = 0;
+
+                for (int j = 0; j < repeats; j++)
+                {
+                    
+                }
             }
         }
     }
