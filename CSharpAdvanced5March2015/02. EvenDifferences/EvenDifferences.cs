@@ -8,24 +8,17 @@
     {
         static void Main()
         {
-            int[] numbers = Console.ReadLine()
+            var numbers = Console.ReadLine()
                 .Split(new string[] { " " }, StringSplitOptions.RemoveEmptyEntries)
-                .Select(int.Parse)
+                .Select(long.Parse)
                 .ToArray();
             long evenSum = 0;
-            int jumps = 1;
             long difference = 0;
+            int i = 1;
 
-            for (int i = 1; i < numbers.Length; i+=jumps)
+            while (i < numbers.Length)
             {
-                if(numbers[i] > numbers[i-1])
-                {
-                    difference = numbers[i] - numbers[i - 1];
-                }
-                else
-                {
-                    difference = numbers[i - 1] - numbers[i];
-                }
+                difference = Math.Abs(numbers[i] - numbers[i - 1]);
 
                 if (difference % 2 == 0)
                 {
