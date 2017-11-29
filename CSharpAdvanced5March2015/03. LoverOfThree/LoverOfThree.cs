@@ -13,23 +13,31 @@
 
         static int GetMoveDirection(string direction)
         {
-            switch(direction)
+            switch (direction)
             {
-                case "LU": return 0;
+                case "LU":
+                    return 0;
                     break;
-                case "UL": return 0;
+                case "UL":
+                    return 0;
                     break;
-                case "RU":return 1;
+                case "RU":
+                    return 1;
                     break;
-                case "UR":return 1;
+                case "UR":
+                    return 1;
                     break;
-                case "RD":return 2;
+                case "RD":
+                    return 2;
                     break;
-                case "DR":return 2;
+                case "DR":
+                    return 2;
                     break;
-                case "LD":return 3;
+                case "LD":
+                    return 3;
                     break;
-                case "DL":return 3;
+                case "DL":
+                    return 3;
                     break;
 
                 default: throw new ArgumentException();
@@ -46,6 +54,11 @@
             r = dimensions[0];
             c = dimensions[1];
             int directionsNumber = int.Parse(Console.ReadLine());
+
+            for (int i = 0; i < directionsNumber; i++)
+            {
+
+            }
         }
     }
 }
