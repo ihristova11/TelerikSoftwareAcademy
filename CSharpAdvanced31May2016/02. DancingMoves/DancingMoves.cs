@@ -1,65 +1,59 @@
 ﻿namespace _02.DancingMoves
 {
     using System;
+    using System.Collections.Generic;
     using System.Linq;
 
     class DancingMoves
     {
-        public static string line;
-        public static int sum = 0;
+        static List<int> floor = new List<int>();
+        static int currentIndex = 0;
+        static int currentResult = 0;
+
         static void Main()
         {
-            //reading the input
-            var arr = Console.ReadLine()
-                .Split(new string[] { " " }, StringSplitOptions.RemoveEmptyEntries)
-                .Select(int.Parse)
-                .ToArray();
+            currentIndex = 0;
+            floor = new List<int>();
+            currentResult = 0;
 
-            line = "";
+            floor = Console.ReadLine().Split(new string[] { " " }, StringSplitOptions.RemoveEmptyEntries).Select(int.Parse).ToList();
+            string line = null;
 
+            var resultArr = new List<int>();
 
-        }
-
-        public static void CalculateSum(int[] arr)
-        {
-            while (line != "stop")
+            while ((line = Console.ReadLine()) != "stop")
             {
-                //getting the line elements for the task
-                line = Console.ReadLine();
-                var instructions = Console.ReadLine()
-                    .Split(new string[] { " " }, StringSplitOptions.RemoveEmptyEntries)
-                    .ToArray();
-                int repeats = int.Parse(instructions[0]);
-                string direction = instructions[1];
-                int steps = int.Parse(instructions[2]);
+                var arr = line.Split(new string[] { " " }, StringSplitOptions.RemoveEmptyEntries);
 
-                int position = 0;
+                var times = int.Parse(arr[0]);
+                var direction = arr[1];
+                var step = int.Parse(arr[2]);
 
-                for (int i = 1; i <= repeats; i++)
-                {
-                    if (direction == "left")
-                    {
-                        position -= steps;
-                    }
-                    else if(direction == "right")
-                    {
-                        position += steps;
-                    }
+                currentResult = 0;
 
-                    //if position is out of boundaries
-                    while(position < 0)
-                    {
-                        position += arr.Length;
-                    }
+                Move(times, step, direction);
 
-                    while(position > arr.Length - 1)
-                    {
-                        position -= arr.Length;
-                    }
-
-                }
+                resultArr.Add(currentResult);
             }
 
+            Console.WriteLine("{0:F1}", resultArr.Average(x => x));
+        }
+
+        static void Move(int times, int step, string direction)
+        {
+            for (int i = 0; i < times; i++)
+            {
+                if (direction == "right")
+                {
+                    currentIndex = (currentIndex + step) % floor.Count;
+                }
+                else
+                {
+                    currentIndex = (currentIndex - step) % floor.Count < 0 ? floor.Count + (currentIndex - step) % floor.Count : (currentIndex - step) % floor.Count;
+                }
+
+                currentResult += floor[currentIndex];
+            }
         }
     }
 }
