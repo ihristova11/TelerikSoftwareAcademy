@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. PeshoCode", "04. PeshoC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Snacky the Snake", "03. Snacky the Snake\03. Snacky the Snake.csproj", "{E98E9103-C1B9-4AF6-BE20-0F9AE9FFF9F4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. SneakyTheSnake", "03. SneakyTheSnake\03. SneakyTheSnake.csproj", "{F5DDAB2C-27FA-4780-A4FD-BB97179BA357}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{E98E9103-C1B9-4AF6-BE20-0F9AE9FFF9F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E98E9103-C1B9-4AF6-BE20-0F9AE9FFF9F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E98E9103-C1B9-4AF6-BE20-0F9AE9FFF9F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5DDAB2C-27FA-4780-A4FD-BB97179BA357}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5DDAB2C-27FA-4780-A4FD-BB97179BA357}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5DDAB2C-27FA-4780-A4FD-BB97179BA357}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5DDAB2C-27FA-4780-A4FD-BB97179BA357}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
