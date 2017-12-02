@@ -55,10 +55,10 @@
                 }
             }
 
-            var gluedSubstring = targetSubstring.Replace(" ", string.Empty);
+            targetSubstring = targetSubstring.Replace(" ", string.Empty);
             BigInteger result = 0;
 
-            foreach (var character in gluedSubstring)
+            foreach (var character in targetSubstring)
             {
                 result += character * keyword.Length;
             }
