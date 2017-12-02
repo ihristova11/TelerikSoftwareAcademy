@@ -51,75 +51,7 @@
                 substring = text.Substring(start, end - start);
             }
             //print output
-            Console.WriteLine(substring.Where(x => x != ' ').Sum(x => char.ToUpper(x)));
-
-
-            //-----USED REGEX IDEA OF SOLUTION-----
-
-
-           // //reading the input -> 1.
-           // string word = Console.ReadLine();            
-           // int numberOfLines = int.Parse(Console.ReadLine());
-           // string[] lines = new string[numberOfLines];
-
-           // for (int i = 0; i < numberOfLines; i++)
-           // {
-           //     lines[i] = Console.ReadLine();
-           // }
-
-           // int output = 0;
-           // string text = string.Join(" ", lines);
-           // Regex patternSentence = new Regex(@"(\S.+?(.+?)[.?])(?=\s+|$)");
-           //// Regex patternSentence = new Regex(@"(\S.+?" + word + @"(.+?)[.?])(?=\s+|$)");
-           // //Console.WriteLine(text);
-           // string sub;
-           // int start;
-           // MatchCollection questionsMatch = patternSentence.Matches(text);
-
-           // foreach (var m in questionsMatch)
-           // {
-           //     var sentence = m.ToString();
-           //     Match wordMatch = new Regex(word).Match(sentence);
-           //     if(wordMatch.Success)
-           //     {
-           //         //Console.WriteLine(sentence);
-
-           //         //print only questions
-           //         if (sentence[sentence.Length - 1] == '?')
-           //         {
-           //             //Console.WriteLine(sentence);
-           //             start = sentence.IndexOf(word) + word.Length;
-           //             sub = sentence.Substring(start, sentence.Length - 1 - start).ToUpper();
-           //             //Console.WriteLine(sub);
-           //             for (int i = 0; i < sub.Length; i++)
-           //             {
-           //                 if (sub[i] != ' ')
-           //                 {
-           //                     output += (int)sub[i];
-           //                 }
-           //             }
-           //         }
-           //         //print only statements
-           //         if (sentence[sentence.Length - 1] == '.')
-           //         {
-           //             //Console.WriteLine(sentence);
-           //             start = sentence.IndexOf(word);
-           //             sub = sentence.Substring(0, start).ToUpper();
-           //             //Console.WriteLine(sub);
-
-           //             for (int i = 0; i < sub.Length; i++)
-           //             {
-           //                 if (sub[i] != ' ')
-           //                 {
-           //                     output += (int)sub[i];
-           //                 }
-           //             }
-           //         }
-           //     }
-                
-           // }
-
-           // Console.WriteLine(output);
+            Console.WriteLine(substring.Where(x => x != ' ').Sum(x => char.ToUpper(x)));           
         }
     }
 }
