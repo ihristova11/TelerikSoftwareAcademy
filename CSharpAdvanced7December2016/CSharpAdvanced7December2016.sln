@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Snacky the Snake", "03.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. SneakyTheSnake", "03. SneakyTheSnake\03. SneakyTheSnake.csproj", "{F5DDAB2C-27FA-4780-A4FD-BB97179BA357}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. GoshoCode", "04. GoshoCode\04. GoshoCode.csproj", "{4D10DDC6-9F51-470B-970E-A9BFF4369AF9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{F5DDAB2C-27FA-4780-A4FD-BB97179BA357}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5DDAB2C-27FA-4780-A4FD-BB97179BA357}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5DDAB2C-27FA-4780-A4FD-BB97179BA357}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D10DDC6-9F51-470B-970E-A9BFF4369AF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D10DDC6-9F51-470B-970E-A9BFF4369AF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D10DDC6-9F51-470B-970E-A9BFF4369AF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D10DDC6-9F51-470B-970E-A9BFF4369AF9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

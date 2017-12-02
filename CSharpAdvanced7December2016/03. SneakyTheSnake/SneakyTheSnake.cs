@@ -27,8 +27,7 @@
         //  w -> row - 1
         //  a -> col - 1
         //  d -> col + 1
-
-
+        
         static void Main()
         {
             //reading the input
@@ -136,9 +135,7 @@
                         return;
                     default: break;
                 }
-
             }
-
             Console.WriteLine(stuckInDen, currRow, currCol);
         }
     }
