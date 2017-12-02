@@ -6,6 +6,20 @@
     class Program
     {
         public static char[][] matrix;
+        public static int len = 3;
+        public static int food = 0;
+        public static int rows;
+        public static int cols;
+        public static string[] directions;
+        public static int startCol;
+        public static int startRow;
+
+        //----DIRECTIONS----
+        //  d -> row + 1
+        //  u -> row - 1
+        //  l -> col - 1
+        //  r -> col + 1
+
         static void Main()
         {
             //reading the input
@@ -15,11 +29,12 @@
                 .ToArray();
 
             //getting the dimensions of the matrix
-            var rows = dimensions[0];
-            var cols = dimensions[1];
+            rows = dimensions[0];
+            cols = dimensions[1];
             string line;
             matrix = new char[rows][];
 
+            //get the input line and make it char arr
             for (int i = 0; i < rows; i++)
             {
                 matrix[i] = new char[cols];
@@ -27,13 +42,102 @@
                 matrix[i] = line.ToCharArray();
             }
 
-            for (int i = 0; i < rows; i++)
+            //get the directions in arr
+            directions = Console.ReadLine()
+                .Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries);
+
+            //get the coordinates of the start
+            startRow = 0;
+            startCol = string.Join("", matrix[startRow]).IndexOf('s');
+
+            GoThroughTheDen();
+        }
+
+        public static void GoThroughTheDen()
+        {
+            int currRow = startRow;
+            int currCol = startCol;
+
+            for (int i = 0; i < directions.Length; i++)
             {
-                for (int j = 0; j < cols; j++)
+                //changing the length of the snake
+                if ((i + 1) % 5 == 0)
                 {
-                    Console.Write(matrix[i][j] + " ");
+                    len--;
                 }
-                Console.WriteLine();
+
+                if (len <= 0)
+                {
+                    Console.WriteLine("Snacky will starve at [{0},{1}]", currRow, currCol);
+                    return;
+                }
+
+                //changing the direction
+                switch (directions[i])
+                {
+                    case "d":
+                        currRow += 1;
+                        break;
+                    case "u":
+                        currRow -= 1;
+                        break;
+                    case "l":
+                        currCol -= 1;
+                        break;
+                    case "r":
+                        currCol += 1;
+                        break;
+                    default: break;
+                }
+
+                //check if the snake moves out of the L and R 
+                if (currCol > cols - 1)
+                {
+                    currCol = currCol % cols;
+                }
+                if (currCol < 0)
+                {
+                    currCol = (cols - currCol) % cols;
+                }
+
+                if (currRow >= rows)
+                {
+                    Console.WriteLine("Snacky will be lost into the depths with length {0}", len);
+                    return;
+                }
+
+                //going through the matrix and collecting
+                switch (matrix[currRow][currCol])
+                {
+                    case '#':
+                        Console.WriteLine("Snacky will hit a rock at [{0},{1}]", currRow, currCol);
+                        return;
+                    case '*':
+                        len++;
+                        matrix[currRow][currCol] = 'v';
+                        break;
+                    case '.':
+                        break;
+                    default: break;
+                }
+
+                //check if the snake is at the end positions
+                if (currCol == startCol && currRow == startRow)
+                {
+                    Console.WriteLine("Snacky will get out with length {0}", len);
+                    return;
+                }
+
+            }
+
+            //check where is the snake after all the directions given
+            if (currCol == startCol && currRow == startRow)
+            {
+                Console.WriteLine("Snacky will get out with length {0}", len);
+            }
+            else
+            {
+                Console.WriteLine("Snacky will be stuck in the den at [{0},{1}]", currRow, currCol);
             }
         }
     }
