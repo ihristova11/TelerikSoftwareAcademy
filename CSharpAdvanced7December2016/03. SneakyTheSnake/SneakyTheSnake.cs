@@ -22,25 +22,34 @@
         public static int startRow;
         public static int startCol;
 
+        //----DIRECTIONS----
+        //  s -> row + 1
+        //  w -> row - 1
+        //  a -> col - 1
+        //  d -> col + 1
+
 
         static void Main()
         {
+            //reading the input
             var dimensions = Console.ReadLine()
                 .Split(new string[] { "x" }, StringSplitOptions.RemoveEmptyEntries)
                 .Select(int.Parse)
                 .ToArray();
 
+            //getting the dimensions of the matrix
             rows = dimensions[0];
             cols = dimensions[1];
             matrix = new char[rows][];
 
             FillTheMatrix();
 
+            //get the directions in arr
             directions = Console.ReadLine()
                 .Split(new string[] { "," }, StringSplitOptions.RemoveEmptyEntries)
                 .ToArray();
 
-
+            //get the coordinates of the start
             startRow = 0;
             startCol = string.Join("", matrix[startRow]).IndexOf('e');
 
@@ -49,6 +58,7 @@
 
         public static void FillTheMatrix()
         {
+            //get the input line and make it char arr
             for (int i = 0; i < rows; i++)
             {
                 matrix[i] = new char[cols];
@@ -80,31 +90,33 @@
                     default: break;
                 }
 
-                if((index + 1) % 5 == 0)
+                //changing the length of the snake
+                if ((index + 1) % 5 == 0)
                 {
                     len--;
                 }
 
-                if(len <= 0)
+                if (len <= 0)
                 {
                     Console.WriteLine(starve, currRow, currCol);
                     return;
                 }
 
-                if(currRow >= rows)
+                //check if the snake moves out of the L and R 
+                if (currRow >= rows)
                 {
                     Console.WriteLine(lostIntoDepths, len);
                     return;
                 }
 
-                if(currCol < 0)
+                if (currCol < 0)
                 {
                     currCol = (cols + currCol) % cols;
                 }
 
-                if(currCol > cols - 1)
+                if (currCol > cols - 1)
                 {
-                    currCol = currCol  % cols;
+                    currCol = currCol % cols;
                 }
 
                 // going through the matrix and collecting
