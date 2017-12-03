@@ -46,18 +46,9 @@
                         position += path.Length;
                     }
                 }
-               // position += directions[direction];
 
-                //if (position < 0)
-                //{
-                //    position += path.Length;
-                //}
-                //else if(position > path.Length - 1)
-                //{
-                //    position -= path.Length;
-                //}
 
-                switch(path[position])
+                switch (path[position])
                 {
                     case '@':
                         souls++;
